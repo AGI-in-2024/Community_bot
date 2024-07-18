@@ -448,7 +448,7 @@ def main() -> None:
     """Основная функция для запуска бота"""
     setup_database()
     
-    token = '7233735458:AAFjW2TdVxVis-ezafzaUanLA-F8Cu7w6HM'
+    token = 'your_token'
     if not token:
         logger.error("Не найден токен бота. Установите переменную окружения TELEGRAM_BOT_TOKEN.")
         return
